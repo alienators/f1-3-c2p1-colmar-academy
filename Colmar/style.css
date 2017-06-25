@@ -1,0 +1,428 @@
+* {
+  font-family: helvetica !important;
+  font-size: 18px;
+  color: darkslategray;
+}
+.head {
+  display: flex;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+}
+.head1 {
+  display: flex;
+  align-items: center;
+  width: 65%;
+}
+.head img {
+  margin-left: 24px;
+}
+.head h2 {
+  text-transform: uppercase;
+  color: black;
+}
+.head #title {
+  color: slategray;
+}
+.head nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 24px;
+}
+.head nav a{
+  display: inline-flex;
+  color: black;
+  margin-left: 16px;
+  text-decoration: none;
+}
+.one {
+  display: flex;
+  justify-content: center;
+  background-color: gainsboro;
+}
+.one .pic img {
+  width: 100%;
+  height: 100%;
+}
+.one .pic {
+  display: flex;
+  width: 40%;
+  height: 40%;
+  margin: 32px 40px 32px 24px;
+}
+.one .start, .one .start a {
+  background-color: darkslategray;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5;
+}
+.one .start {
+  width: 75%;
+  padding: .1rem 0;
+}
+.one .learn {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 68%;
+}
+.one .learn h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: left;
+  line-height: 1.2;
+}
+.one .learn h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.one .learntop {
+  display: flex;
+  width: 35%;
+  margin-left: 16px;
+}
+.two {
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+.two .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40%;
+  margin-right: 16px;
+  line-height: 2;
+}
+.two .left .text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.two .left .text h2{
+  font-size: 2.5rem;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.two .left .pic img{
+  width: 100%;
+  margin-top: 32px;
+}
+.text h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+#ad {
+  margin-top: 3rem;
+}
+.two .right .section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.two .right {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-left: 2px solid gainsboro
+}
+.two .right .pic img {
+  width: 70%;
+  margin: 16px;
+}
+.two .right h2 {
+  font-size: 1.5rem;
+}
+.two .right .section .text {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+.two a {
+  display: block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: cadetblue;
+}
+.two #top {
+  margin-top: 16px;
+}
+.two .right .section:hover{
+  background-image: linear-gradient(to right, gainsboro, gainsboro, whitesmoke);
+}
+.three {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: gainsboro;
+  padding-bottom: 40px;
+}
+.three .block {
+  width: 18%;
+  height: 100%;
+  margin: 0 32px;
+}
+.three .block img{
+  width: 100%;
+}
+.top {
+  width: 100%;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding: 32px 0;
+}
+.three .textback {
+  display: flex;
+  background-color: white;
+}
+.three h2 {
+  font-size: 1.5rem;
+}
+.three h3, .three h2 {
+  padding: 8px;
+}
+.three .text {
+  margin: 8px;
+  line-height: 1.4;
+}
+.sec {
+  margin-top: 16px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.four {
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+}
+.four h1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 2.5rem 0;
+}
+.four .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  margin-bottom: 3rem;
+  margin-right: 1.5rem;
+  padding: 0;
+}
+.four .left .text {
+  margin-top: 1rem;
+  width: 65%;
+  line-height: 1.5;
+}
+.four .left .vid {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.four .left .vid video {
+  width: 100%;
+  height: 100%;
+}
+.four .right {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  flex-direction: column;
+}
+.four .right img {
+  width: 100%;
+  margin: 24px;
+}
+.four .right .pic {
+  width: 30%;
+}
+.four .right .section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.four .right .text h2 {
+  font-size: 1.5rem;
+}
+.four .right .text {
+  margin-left: 40px;
+  line-height: 1.5;
+  width: 30%;
+}
+.four .right a {
+  display: block;
+  text-decoration: none;
+  color: cadetblue;
+  margin-top: 2rem;
+}
+.four .right .section:hover {
+  background-image: linear-gradient(to right, gainsboro, gainsboro, whitesmoke);
+}
+.both {
+  display: flex;
+  justify-content: center;
+}
+.foot {
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(to left, whitesmoke, gainsboro, whitesmoke);
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+.foot h5 {
+  display: block;
+  margin-left: 24px;
+  width: 100%;
+}
+.foot a{
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.foot #foot {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width:1024px) {
+
+.mobile {
+    display: flex;
+}
+.one .pic, .head1 {
+  display: none;
+}
+.one .learntop, .one .learn {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+.two .left, .two .pic, .three .pic, .three h3, .four .right, .four .left .text, footer .foot #foot {
+  display: none;
+}
+.two .right, .two .mobilepic, .two .section {
+  width: 100%;
+}
+.three .textback, .three .text {
+  width: 100%;
+  background-color: gainsboro;
+}
+.four .left, .four .both, .four .left .vid {
+  width: 100%;
+}
+.three {
+  background-color: whitesmoke;
+}
+.head {
+  height: auto;
+  width: 100%;
+}
+.mobilehead {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+.mobilehead img{
+  height: 3rem;
+  margin: 2rem auto 1rem auto;
+}
+.one .learn {
+  width: 95%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.one {
+  flex-direction: column;
+  width:
+}
+.mobilelearn {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  background-color: gray;
+}
+.one .start {
+  width: 60%;
+  margin-top: 2%;
+}
+.two .right .section {
+  flex-direction: column;
+}
+.two .mobilepic img{
+  width: 100%;
+}
+.two #mobilepictop {
+  margin-top: 10%;
+}
+.two .right .text {
+  width: 100%;
+  margin: 5% 0 10% 8%;
+  font-size: 1.5rem !important;
+}
+.two .right .text h2 {
+  font-size: 2rem;
+}
+.two .right {
+  width: 95%;
+  border: 0;
+}
+.two .right .section:hover {
+  background-image: none;
+}
+.two .right a {
+ margin-top: 4%;
+}
+.top {
+  background-color: whitesmoke;
+  border-top: 1px solid gainsboro;
+}
+.sec {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.three .block {
+  width: 95%;
+  margin-bottom: 3%;
+}
+.three .block .text {
+  padding: 3% 0;
+}
+.four {
+  border-top: 1px solid gainsboro;
+}
+.four .left, .four .left .vid .four .left .vid video{
+  width: 100%;
+  margin: 0;
+}
+.foot {
+  padding: 0;
+}
+.footin {
+  padding: 15% 0 5% 0;
+}
+.foot h5 {
+  margin-left: 5%;
+}
+.all {
+  overflow: hidden;
+}
